@@ -25,6 +25,7 @@ public class Ejemplo5 {
         String ciudad = entrada.nextLine(); // Quito
 
         if (!ciudad.equals("Loja")) {
+            //El signo fin de admiracion(!) significa negacion de cadena
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
