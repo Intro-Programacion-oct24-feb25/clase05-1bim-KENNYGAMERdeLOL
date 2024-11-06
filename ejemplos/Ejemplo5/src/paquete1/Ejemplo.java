@@ -32,6 +32,7 @@ public class Ejemplo {
             System.out.printf("Resultado %s\n", mensajeUno);
         } else {
             System.out.printf("Resultado %s\n", mensajeDos);
+            //% el porcentaje es el modulo o residuo MOD tambien representa el % 
         }
 
     }
