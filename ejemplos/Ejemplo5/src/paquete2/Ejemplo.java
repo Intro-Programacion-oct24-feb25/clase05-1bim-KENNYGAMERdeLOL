@@ -52,3 +52,5 @@ public class Ejemplo {
         }
     }
 }
+//Scanner sirve para guardar todos los datos qu vayamos a ingresa
+//use.Locale sirve para usar solo . y ; estos seran validos 
