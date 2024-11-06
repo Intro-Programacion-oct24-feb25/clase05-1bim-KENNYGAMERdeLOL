@@ -29,7 +29,8 @@ public class Ejemplo3 {
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
-        } else {
+        } else { //No se usa el Or porque no estaria dando entrada dos posibles
+                 // casos para que sea verdadero, po reso se usa el AND 
             if ((promedio >= 5) && (promedio < 7.5)) {
                 System.out.printf("Estudiante en suspenso con un "
                         + "promedio: %.2f\n", promedio);
